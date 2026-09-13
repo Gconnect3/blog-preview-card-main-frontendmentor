@@ -46,6 +46,12 @@ body{
     font-size: 1.6rem;
     margin: 0;
 }
+
+a{
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
 img {
     display: block;
     max-width: 100%;
@@ -89,11 +95,23 @@ img {
 }
 
 .card__content{
-font-family: Figtree, serif;
+font-family: "Figtree", sans-serif;
 }
 
 .card__content--taxonomy{
     background-color: var(--yellow);
     padding: .5rem;
     font-weight: 500;
+}
+.card__content--title{
+    
+}
+.card__content--title:hover{
+    color: var(--yellow);
+}
+.card__author{
+    display:flex;
+    padding: 10px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 700;
 }
