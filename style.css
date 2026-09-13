@@ -113,4 +113,16 @@ font-family: "Figtree", sans-serif;
     font-family: "Figtree", sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
+    align-items: center;
+}
+
+.card__author--avatar{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+@media (max-width: 767px) {
+    .card {
+        max-width: 32rem;
+    }
 }
