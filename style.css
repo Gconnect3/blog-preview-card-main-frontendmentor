@@ -1,7 +1,7 @@
 /* Medium Variant */
 @font-face {
     font-family: 'Figtree';
-    src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+    src: url('assets/fonts/static/Figtree-Medium.ttf') format('truetype');
     font-weight: 500;
     /* Maps to Medium */
     font-style: normal;
@@ -10,7 +10,7 @@
 /* Bold Variant */
 @font-face {
     font-family: 'Figtree';
-    src: url('./assets/fonts/static/Figtree-Bold.ttf') format('truetype');
+    src: url('assets/fonts/static/Figtree-Bold.ttf') format('truetype');
     font-weight: 700;
     /* Maps to Bold */
     font-style: normal;
@@ -79,7 +79,7 @@ img {
 .card::after {
     content: "";
     position: absolute;
-    top: 0;
+    top:2px;
     right: 0;
     border-right: 10px solid #000000;
     border-bottom: 10px solid #000000;
@@ -103,9 +103,7 @@ font-family: "Figtree", sans-serif;
     padding: .5rem;
     font-weight: 500;
 }
-.card__content--title{
-    
-}
+
 .card__content--title:hover{
     color: var(--yellow);
 }
