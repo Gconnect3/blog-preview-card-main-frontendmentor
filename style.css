@@ -101,11 +101,12 @@ font-family: "Figtree", sans-serif;
 .card__content--taxonomy{
     background-color: var(--yellow);
     padding: .5rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
-.card__content--title:hover{
+.card__content .card__content--title:active{
     color: var(--yellow);
+    cursor: pointer;
 }
 .card__author{
     display:flex;
